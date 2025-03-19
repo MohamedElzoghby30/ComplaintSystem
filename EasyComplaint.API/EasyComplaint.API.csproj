@@ -16,8 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Controllers\" />
     <Folder Include="DTO\" />
-    <Folder Include="Errors\" />
     <Folder Include="Helpers\" />
     <Folder Include="MiddleWares\" />
     <Folder Include="wwwroot\images\" />
