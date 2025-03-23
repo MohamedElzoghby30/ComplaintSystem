@@ -13,7 +13,7 @@ namespace EasyComplaint.Repository.Data.Configrations
     {
         public void Configure(EntityTypeBuilder<ComplaintType> builder)
         {
-            builder.ToTable("ComplaintTypes");
+           
             builder.HasKey(ct => ct.Id);
 
             builder.Property(ct => ct.TypeName)

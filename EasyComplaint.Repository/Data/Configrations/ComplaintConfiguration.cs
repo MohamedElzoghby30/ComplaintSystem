@@ -13,8 +13,8 @@ namespace EasyComplaint.Repository.Data.Configrations
     {
         public void Configure(EntityTypeBuilder<Complaint> builder)
         {
-            // تحديد اسم الجدول
-            builder.ToTable("Complaints");
+           
+           
 
             // تعيين المفتاح الأساسي
             builder.HasKey(c => c.Id);

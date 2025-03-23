@@ -13,7 +13,7 @@ namespace EasyComplaint.Repository.Data.Configrations
     {
         public void Configure(EntityTypeBuilder<Workflow> builder)
         {
-            builder.ToTable("Workflows");
+          
             builder.HasKey(w => w.Id);
 
             builder.Property(w => w.StepName)

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,7 @@ namespace EasyComplaint.Core.Entities
 {
     public class BaseEntity
     {
+      
         public int Id { get; set; }
     }
 }
